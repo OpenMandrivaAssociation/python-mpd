@@ -1,6 +1,6 @@
 Name:           python-mpd
 Version:        0.2.1
-Release:        %mkrel 3
+Release:        %mkrel 4
 Summary:        Python bindings for MPD
 Group:          Development/Python
 License:        GPL
