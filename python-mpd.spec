@@ -29,3 +29,36 @@ rm -rf %buildroot
 %defattr(-,root,root,-)
 %doc LICENSE.txt GPL.txt README.txt CHANGES.txt 
 %{python_sitelib}/*
+
+
+%changelog
+* Wed Mar 30 2011 Sandro Cazzaniga <kharec@mandriva.org> 0.3.0-1mdv2011.0
++ Revision: 649205
+- update to 0.3.0
+- update doc
+
+* Mon Nov 01 2010 Funda Wang <fwang@mandriva.org> 0.2.1-4mdv2011.0
++ Revision: 591346
+- rebuild for py 2.7
+
+* Tue Sep 15 2009 Thierry Vignaud <tv@mandriva.org> 0.2.1-3mdv2010.0
++ Revision: 442316
+- rebuild
+
+* Fri Jan 02 2009 Funda Wang <fwang@mandriva.org> 0.2.1-2mdv2009.1
++ Revision: 323360
+- rebuild
+
+* Sat Nov 22 2008 Guillaume Rousse <guillomovitch@mandriva.org> 0.2.1-1mdv2009.1
++ Revision: 305846
+- update to new version 0.2.1
+
+* Fri Aug 08 2008 Thierry Vignaud <tv@mandriva.org> 0.2.0-2mdv2009.0
++ Revision: 269033
+- rebuild early 2009.0 package (before pixel changes)
+
+* Mon May 05 2008 Funda Wang <fwang@mandriva.org> 0.2.0-1mdv2009.0
++ Revision: 201240
+- Import source and spec
+- Created package structure for python-mpd.
+
