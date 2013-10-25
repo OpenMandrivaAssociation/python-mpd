@@ -8,6 +8,7 @@ URL:            http://www.musicpd.org/~jat/python-mpd/
 Source0:        http://pypi.python.org/packages/source/p/python-mpd2/python-mpd2-%{version}.tar.bz2
 BuildArch:	noarch
 BuildRequires:  python-devel
+BuildRequires:  python-distribute
 
 %description
 An MPD (Music Player Daemon) client library written in pure Python.
