@@ -4,7 +4,7 @@ Release:        2
 Summary:        Python bindings for MPD
 Group:          Development/Python
 License:        GPL
-URL:            http://www.musicpd.org/~jat/python-mpd/
+URL:            https://www.musicpd.org/~jat/python-mpd/
 Source0:        http://pypi.python.org/packages/source/p/python-mpd2/python-mpd2-%{version}.tar.bz2
 BuildArch:	noarch
 BuildRequires:  python-devel
